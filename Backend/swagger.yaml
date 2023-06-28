@@ -112,7 +112,7 @@ paths:
      requestBody:
        required: true
        content:
-         multipart/form-data:
+         multipart/form-works:
            schema:
              type: object
              properties:

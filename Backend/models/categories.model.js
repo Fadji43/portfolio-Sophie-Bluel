@@ -1,10 +1,10 @@
 
-module.exports = (sequelize, DataTypes) => {
+module.exports = (sequelize, worksTypes) => {
 	const Categories = sequelize.define(
 		"categories",
 		{
 		name: {
-			type: DataTypes.STRING,
+			type: worksTypes.STRING,
 			allowNull: false,
 			unique: true,
 			},
